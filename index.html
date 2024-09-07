@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eleanrning</title>
+    <!-- <style type="text/css">
+      body {
+        margin: 0;
+        padding: 0;
+        min-width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        background-color: #ffffff;
+        color: #ffffff;
+      }
+
+      a {
+        columns: #000;
+        text-decoration: none;
+      }
+      h1 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.25;
+        margin-top: 0;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+      p {
+        margin-top: 0;
+        margin-bottom: 24px;
+      }
+      table td {
+        vertical-align: top;
+      } -->
+
+      /* layout
+      .email-wrapper {
+        max-width: 600px;
+        margin: 0 auto;
+        border: 2px solid rgb(225, 169, 44);
+        border-radius: 5px;
+        margin-top: 5px;
+        padding: 15px;
+      }
+      .email-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        background-color: #e1a92c;
+        padding: 24px;
+        color: #010101;
+        border-radius: 5px;
+        margin-bottom: 2x;
+      }
+      .email-quote {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .email-img {
+        width: 50px;
+        height: 50px;
+        margin-left: 15px;
+        border-radius: 50px;
+      }
+      .email-body {
+        padding: 24px;
+        background-color: #010101;
+      }
+      .email-footer {
+        background-color: #010101;
+        text-decoration: none;
+      }
+      .link {
+        display: inline-block;
+        background-color: #042d25;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: none;
+        padding: 12px 24px;
+        border-radius: 4px;
+        margin-left: 15px;
+      }
+
+      .mailto {
+        color: #e1a92c;
+      } */
+    <!-- </style> -->
+  </head>
+  <body
+    style="
+      margin: 0;
+      padding: 0;
+      min-width: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      background-color: #ffffff;
+      color: #ffffff;
+    "
+  >
+    <div
+      style="
+        max-width: 600px;
+        margin: 0 auto;
+        border: 2px solid rgb(225, 169, 44);
+        border-radius: 5px;
+        margin-top: 5px;
+        padding: 15px;
+      "
+    >
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 0px;
+          background-color: #e1a92c;
+          padding: 24px;
+          color: #010101;
+          border-radius: 5px;
+          margin-bottom: 2x;
+        "
+      >
+        <h1
+          style="
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.25;
+            margin-top: 0;
+            margin-bottom: 15px;
+            text-align: center;
+          "
+        >
+          Welcome to the Kosi
+        </h1>
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          <h3>Let's Dive into Kosi.</h3>
+        </div>
+      </div>
+
+      <div style="padding: 24px; background-color: #010101">
+        <p style=" margin-top: 0;
+        margin-bottom: 24px;">Hello <%= user.name %>,</p>
+        <p style=" margin-top: 0;
+        margin-bottom: 24px;">
+          Thank you for registering with Kosi. To activate your account, Please
+          use the following activation code:
+        </p>
+        <h2><%= activationCode %></h2>
+        <p style=" margin-top: 0;
+        margin-bottom: 24px;">
+          Please enter this code on the activation page within the next 5
+          minutes.
+        </p>
+        <p style=" margin-top: 0;
+        margin-bottom: 24px;">
+          If you didn't register for the Kosi account, please ignore this email.
+        </p>
+        <br />
+        <p style="background-color: #010101; text-decoration: none">
+          If you have any query, Please don't hesitate to contact us at
+          <a
+            style="color: #e1a92c; columns: #000; text-decoration: none"
+            href="mailto:elearning24724@gmail.com"
+            >kosi_query@gmail.com</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
